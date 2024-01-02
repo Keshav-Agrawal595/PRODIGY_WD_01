@@ -1,0 +1,57 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: #f4f4f4;
+padding: 10px 0;
+position: fixed;
+width: 100%;
+z-index: 1000;
+}
+
+#navbar {
+text-align: center;
+}
+
+#navbar ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#navbar li {
+display: inline-block;
+margin: 0 20px;
+}
+
+#navbar a {
+text-decoration: none;
+color: #333;
+transition: color 0.3s;
+}
+
+.section {
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#home {
+    color: #f4f4f4;
+background: url("https://media.istockphoto.com/id/1336271758/photo/programming-source-code-on-digital-screen-software-developer-and-internet-programming-html.jpg?s=2048x2048&w=is&k=20&c=VMN-x_-CJpVfEfWBMJDwC5hAPJYJSuo1hkR75GNr2QM=") no-repeat center center / cover;
+}
+
+#about {
+background: url("https://media.istockphoto.com/id/1157789866/photo/modern-computer-laptop-with-blank-screen-on-counter-barand-window-view.jpg?s=2048x2048&w=is&k=20&c=KgVMg1JGddzy3Xhd53oQaXC1OV-Biq2Ks-VtPswP22E=") no-repeat center center / cover;
+}
+
+#services {
+background: url("https://media.istockphoto.com/id/182853013/photo/leaflet-about-our-services-with-ballpoint-pen.jpg?s=2048x2048&w=is&k=20&c=KbdG6ySb-gUPfGQjNbHdbcVmbyn6h121w_sWgkDUVOM=") no-repeat center center / cover;
+}
+
+#contact {
+background: url("https://media.istockphoto.com/id/1161344489/photo/dice-with-communication-symbols-on-keyboard.jpg?s=2048x2048&w=is&k=20&c=o-XYnxl2_YoVpkvoUtXRTzaDBpbj0rE5s9XzlQ2t4ZU=") no-repeat center center / cover;
+}
